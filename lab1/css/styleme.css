@@ -1,0 +1,24 @@
+/* top main heading */
+p.mainTitle {
+    color: green;
+    font-size: large;
+    font-family: Verdana;
+    font-weight: bolder;
+}
+
+/* change color to yellow */
+span.yellow {
+    color: yellow;
+}
+
+/* normal headings */
+p.title {
+    color: blue;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+/* background */
+body {
+    background-color: grey;
+}

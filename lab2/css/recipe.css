@@ -1,0 +1,64 @@
+/* general settings for all headings */
+.heading {
+    color: #A4A400;
+    background-color: #F0F0F0; 
+    font-family: 'Lucida Sans Unicode', Helvetica, Arial, sans-serif;
+    text-decoration: underline;
+    margin-bottom: 10pt;
+}
+
+/* settings for the main (top) heading */
+.main {
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+/* settings for all other headings */
+.normal {
+    text-align: left;
+    font-size: 18pt;
+}
+
+/* background */
+body {
+    /* background-color: white; */
+    background-image: url(../img/silverware.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+/* normal text settings */
+.content {
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia, Garamond, serif;
+}
+
+/* link text settings */
+.link a{
+    color: #A4A400;
+}
+
+/* comment text settings */
+.comment {
+    font-style: italic;
+    margin-left: 20pt;
+}
+
+/* margin and background for text blocks */
+div.comment > div {
+    background-color: yellow;
+    margin-bottom: 20pt;
+}
+
+/* right alignment for copyright text */
+.copyright {
+    text-align: right;
+    width: 200pt;
+}
+
+/* pie bullet for list */
+ul {
+    list-style-image: url(../img/pie_bullet.png);
+  }
