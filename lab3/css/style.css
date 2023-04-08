@@ -1,0 +1,233 @@
+.nav {
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    position: fixed;
+    padding: 10px;
+}
+
+.nav div {
+    display: flex;
+}
+
+.nav-left {
+    position: relative;
+}
+
+.nav img {
+    max-height: 35px;
+    margin-right: 15px;
+}
+
+.nav-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+    border-left: 1px solid;
+}
+
+.nav-right {
+    margin-top: 10px;
+    margin-left: 530px;
+}
+
+.nav-right a {
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.welcome {
+    padding-top: 50px;
+    min-height: 100px;
+    background-color: blue;
+    margin-top: 60px;
+}
+
+.welcome p {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin: auto;
+}
+
+div.loginArea {
+    padding: 40px 0;
+    display: flex;
+}
+
+div.loginForm {
+    width: 100%;
+    max-width: 400px;
+    float: left;
+    margin-left: 12%;
+}
+
+div.loginForm img {
+    max-height: 60%;
+    height: auto;
+    max-width: 100%;
+    padding-top: 10px;
+}
+
+.login-btn {
+    display: block;
+    height: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 5px;
+    border: solid 1px #dedede;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.sso {
+    margin-bottom: 15px;
+    padding: 0 0 20px;
+    border-bottom: 1px dotted rgba(151,151,151,0.3);
+    position: relative;
+}
+
+p.sso-text {
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+    position: absolute;
+    bottom: -18px;
+    left: 50%;
+    background: #f3f3f3;
+    transform: translateX(-50%);
+}
+
+p.login-text {
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: bold;
+}
+
+p.login-status {
+    color: #999;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.userForm p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.userForm input[type="text"] {
+    margin: 5px 0;
+    padding: 10px 12px;
+    width: 94%;
+    outline: 0;
+    display: inline-block;
+    border-radius: 5px;
+    border: solid 1px #e8e8e8;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+.userForm button {
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-size: 18px;
+    border: 0;
+}
+
+div.margin-top {
+    margin-top: 8px;
+}
+
+div.remember-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+div.submitTicket {
+    width: 50%;
+    padding: 10px 7%;
+    height: 440px;
+    margin: 13px 65px 10px 91px;
+    font-size: 15px;
+    color: #666;
+    border-left: 1px solid rgba(151,151,151,0.2);
+}
+
+div.submitTicket a, div.remember-me a {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: normal;
+    color: #08c;
+    text-decoration: none;
+}
+
+div.submitTicket h3 {
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+div.submitTicket a.submit-btn {
+    width: auto;
+    display: inline-block;
+    height: auto;
+    padding: 5px 15px;
+    margin: 5px 0 15px;
+    font-size: 16px;
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    left: 0;
+    background-color: #e6e6e6;
+    color: #666;
+}
+
+div.footer-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px 30px;
+}
+
+div.footer-content span.footer-copyright-text {
+    margin-left: auto;
+    font-size: 13px;
+}
+
+div.help-desk {
+    width: 95.4%;
+    padding: 7px 30px 10px;
+    text-align: right;
+    background-color: #fff;
+}
+
+div.help-desk a {
+    text-decoration: none;
+    display: inline-block;
+    color: #666;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+div.validator-checker {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    float: right; 
+    display: flex;
+}
+
