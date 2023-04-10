@@ -1,0 +1,33 @@
+.col-md-6 {
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 120px;
+  }
+  
+  #navbarColor01 a.nav-link {
+    border-left: 1.5px solid;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+  
+  a.navbar-brand {
+    padding-right: 2em;
+  }
+  
+  .right {
+    float: right;
+  }
+  
+  .right button {
+    margin-left: 30px;
+  }
+  
+  .d-flex {
+    margin-left: auto;
+  }
+  
+  .d-flex label {
+    padding-top: 0.5em;
+    color: white;
+    padding-right: 1em;
+  }
