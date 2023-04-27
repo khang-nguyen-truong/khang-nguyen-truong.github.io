@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Shopping Cart</title>
+		<link rel="stylesheet" type="text/css" href="./css/style.css" />
+		<link rel="stylesheet" type="text/css" href="./css/table.css" />
+		<script src="./js/product.js"></script>
+	</head>
+
+	<body>
+		<div class="header">
+			<div class="logo header-item">
+				<img width="32" src="./images/cart.png" alt="home" />
+			</div>
+
+			<div class="header-middle">
+				Welcome, <strong id="userLogin"></strong>
+			</div>
+			
+			<div class="header-item">
+				<button id="logoutBtn">Logout</button>
+			</div>
+		</div>
+
+		<div class="content">
+			<div class="table-wrapper">
+				<h1>Product list</h1>
+				<table id="myProducts">
+                    <thead>
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Image</th>
+                            <th scope="col">Stock</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbodyProductList">
+                    </tbody>
+                </table>
+			</div>
+
+			
+			<div class="table-wrapper">
+				
+				<h1>Shopping cart</h1>
+
+				<div id = 'noItem'>There is no item in your shopping cart!</div>
+				
+				<table id="myShoppingCart">
+                    <thead>
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Total</th>
+                            <th scope="col">Quantity</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbodyShoppingCart">
+                    </tbody>
+                </table>
+				
+				<div class="bottom-action">
+					<div id="placeOrder">
+						<button id="btnPlaceOrder">Place order</button>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</body>
+
+</html>
